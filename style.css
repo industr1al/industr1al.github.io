@@ -1,0 +1,81 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: trirong sans-serif;
+  background: url("background.jpeg") no-repeat center fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+
+
+.buffer {
+  height: 2rem;
+}
+
+hr {
+  border-color: black;
+  border-width: 2px;
+}
+
+.btn-xl {
+  padding: 12px 20px;
+}
+.btn {
+font-weight: 700px;
+border-radius: 300px;
+text-transform: uppercase;
+}
+.btn-primary {
+  background-color: #ffffff;
+  color: black;
+  border-color: #ffffff;
+}
+.btn-primary:hover {
+  background-color: lightpink;
+  border-color: lightpink;
+  border-width: 2px;
+}
+
+
+.container {
+  display: flex;            
+  justify-content: center;  
+  gap: 20px;              
+  flex-wrap: wrap;  
+  margin-top: 20px;
+}
+
+.card {
+  width: 30rem ;              
+  display: flex;            
+  justify-content: center;  
+  gap: 20px;              
+  flex-wrap: wrap;  
+}
+
+.card:hover {
+  width: 31rem;
+}
+
+
+h3 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin: 20px 40px;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;          
+  justify-content: center; 
+  align-items: center;       
+  width: 740px;
+  padding: 20px 40px;
+
+}
